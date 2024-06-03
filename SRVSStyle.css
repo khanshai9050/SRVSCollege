@@ -1,0 +1,323 @@
+/*css for navbar*/
+
+* {
+   font-family: "Muli", sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 70px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-size: 24px;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    gap: 21px;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line1, .line2, .line3 {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 3px;
+    transition: all 0.3s ease;
+}
+/*css for upper header*/
+.UpperHeader
+{
+background-color:#AB0909;
+height:35px;
+padding: 4px 60px;
+}
+/*CSS for upper header icon*/
+.UpperHeaderLink {
+    color: white; /* Default link color */
+    text-decoration: none; /* Remove underline */
+}
+.UpperHeaderLink:hover {
+    color: white; /* Default link color */
+}
+/*css for selected menu*/
+.selectedmenu .nav-link 
+{
+	text-decoration: underline;
+  text-decoration-color: #52BDEA;
+  color:#52BDEA !important;
+}
+/*css for footer*/
+.FooterDiv
+{
+	 background:#AB0909;
+	 padding:70px 70px 10px 70px;
+}
+/*css for footer contact navigation*/
+.FooterContactlink 
+{
+	text-decoration:none;
+	color:white;
+}
+.FooterContactlink:hover
+{
+	color:white;
+}
+/*css for footer navigation*/
+.foterlink
+{
+font-size: 19px;
+font-weight: 600;
+padding-right: 10px;
+padding-left: 2px;
+}
+.f-nav {
+	display: grid;
+}
+.f-nav a{
+	margin-bottom: 7px !important;
+	text-decoration:none;
+	color:white;
+}
+.f-nav a:hover{
+	color:white !important;
+}
+/*css for footer social icons*/
+.socialicon {
+  font-size: 20px;
+  padding-top:5px;
+  width: 30px;
+  height:30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 50%;
+  background-color:white;
+  color:#AB0909;
+}
+
+.socialicon:hover {
+	background-color:grey;
+    color: #AB0909;
+	transform: rotate(360deg);
+	transition: transform 360ms ease-in-out;
+}
+/*media query for navbar*/
+
+
+@media (max-width: 743px) {
+	 .navbar {
+		 padding: 10px 40px;
+}
+.UpperHeader
+{
+padding: 7px 35px;
+}
+.FooterDiv
+{
+padding: 50px 35px;
+}
+}
+
+@media (max-width: 500px) {
+	.navbar {
+		 padding: 10px 10px;
+}
+.UpperHeader
+{
+padding: 7px 2px;
+}
+.FooterDiv
+{
+padding: 50px 2px;
+}
+}
+/*css for upper navbar font*/
+@media(max-width:979px)
+{
+.uppernavbar
+{
+	display:none;
+}
+}
+.sticky-top {
+    z-index: 1030; /* Bootstrap's default z-index for sticky elements */
+}
+
+/*css for navbar gap*/
+.MenuGap
+{
+width:600px;	
+}
+
+/* Media query for mobile */
+
+@media screen and (max-width: 991px) {
+    .nav-links {
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 58px;
+		left: -100%; /* Initially off-screen to the left */
+		width:50%;
+		padding: 20px;
+		box-sizing: border-box;
+		transition: left 0.5s ease-in-out; /* Add transition */
+	}
+	
+	.nav-links.active {
+		left: 0; /* Slide into view */
+	}
+	
+    .burger {
+        display: flex;
+	}
+	
+}
+/*Css for about card on index page*/
+.AboutCard
+{
+ background:#AB0909;
+ padding:40px;
+ text-align:center;
+ color:white;
+}
+.AboutCard1
+{
+ background:#A13137;
+ padding:40px;
+ text-align:center;
+ color:white;
+ opacity:0.9;
+}
+/*css for work counter*/
+.WorkCounterBack
+{
+	background-image:url('Images/CounterBack.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin-top:80px;
+background-attachment:fixed;
+		}
+	.overlay1
+	{
+	background-color:#0009;
+	}
+/***css for scroll to top**/
+
+#myScrollToTopBtn {
+	display: none;  /*Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 20px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 10px; /* Some padding */
+	border-radius:50%;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+/*css for icons button*/
+	
+	.ICONBTN1
+  {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 43%; /* Place the button at the bottom of the page */
+  left: -2px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  transform: rotate(90deg);
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:  green;/* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 8px; /* Some padding */
+  border-radius: 5px; /* Rounded corners */  
+  }
+  .ICONBTN2
+  {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 51%; /* Place the button at the bottom of the page */
+  left: -2px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  transform: rotate(90deg);
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:  #2196F3;/* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 8px; /* Some padding */
+  border-radius: 5px; /* Rounded corners */  
+  }
+   .ICONBTN3
+  {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 35%; /* Place the button at the bottom of the page */
+  left: -2px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  transform: rotate(90deg);
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #FDD835;/* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 8px; /* Some padding */
+  border-radius: 5px; /* Rounded corners */  
+  }
+/*CSS for preloader*/
+
+#preloader
+{
+	background:white url(Images/preloader.gif) no-repeat center center;
+	background-size:30%;
+	height:100vh;
+	width:100%;
+	position:fixed;
+    z-index: 9999; /* ensure it's above all other content */
+    display: flex;
+}
+/*css for notice board div*/
+@media screen and (max-width: 991px) {
+.NoticeBoardDiv
+{
+	display:none;
+}
+}
