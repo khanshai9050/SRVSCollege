@@ -138,8 +138,15 @@ padding-left: 2px;
 	transform: rotate(360deg);
 	transition: transform 360ms ease-in-out;
 }
-/*media query for navbar*/
 
+.BrochureDiv
+{
+ background-image:url('Images/BackBroucher.jpeg');
+ background-size:cover;
+ background-repeat:no-repeat;
+ padding:60px;
+}
+/*media query for navbar*/
 
 @media (max-width: 743px) {
 	 .navbar {
@@ -152,6 +159,10 @@ padding: 7px 35px;
 .FooterDiv
 {
 padding: 50px 35px;
+}
+.BrochureDiv
+{
+padding: 50px 35px;	
 }
 }
 
@@ -166,6 +177,10 @@ padding: 7px 2px;
 .FooterDiv
 {
 padding: 50px 2px;
+}
+.BrochureDiv
+{
+padding: 50px 2px;	
 }
 }
 /*css for upper navbar font*/
