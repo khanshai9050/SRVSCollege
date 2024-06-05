@@ -52,7 +52,7 @@
     display: none;
     flex-direction: column;
     cursor: pointer;
-}
+	}
 
 .line1, .line2, .line3 {
     width: 20px;
@@ -76,12 +76,12 @@ padding: 4px 60px;
 .UpperHeaderLink:hover {
     color: white; /* Default link color */
 }
+
 /*css for selected menu*/
 .selectedmenu .nav-link 
 {
-	text-decoration: underline;
-  text-decoration-color: #52BDEA;
-  color:#52BDEA !important;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  color:#AB0909 !important;
 }
 /*css for footer*/
 .FooterDiv
@@ -94,6 +94,8 @@ padding: 4px 60px;
 {
 	text-decoration:none;
 	color:white;
+	display:grid;
+	padding-bottom:10px;
 }
 .FooterContactlink:hover
 {
@@ -335,4 +337,131 @@ background-attachment:fixed;
 {
 	display:none;
 }
+.ContactDiv
+{
+display:none;	
+}
+}
+/**css for contact page*/
+.AboutWorkCounterImage
+		{
+		 background-image: url('Images/gallery1.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+position:relative;
+height:300px;
+width:100%;
+		}
+		 .AboutWorkCounterOverlay{
+width: 100%;
+height: 100%;
+position:absolute;
+color: white;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+text-align: center;
+font-size: 25px;
+background-color:#0009;
+
+  }
+  .AboutWorkCounterBox
+  {
+	 background: #ffffff;
+     border-radius: 10px;
+     position: relative;
+     box-sizing: border-box;
+     padding: 40px 10px 30px;
+     border: 1px solid white;
+     box-shadow: 0px 3px 7px 3px gray; 
+	 min-height: 200px; 
+	 position: relative;
+	 top: 160px;
+  }
+  .BrochureDivSpace
+  {
+   margin-top:140px;
+   }
+  @media screen and (max-width: 991px) {
+  .BrochureDivSpace
+  {
+	margin-top:250px;  
+  }
+  }
+  /*css for vision and mission card*/
+  .VMCard
+  {
+	 box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	 margin-top:30px;
+	 padding:30px;
+  }
+  /*css for vision and mission img div*/
+  .VMImgDiv
+  {
+  background:#f5fafa;
+  border-radius:50%;
+  width:90px;
+  height:90px;
+  padding:15px;
+  }
+  .VMCard h6
+  {
+	  line-height:22px;
+  }
+  /*CSS FOR FACALTY*/
+  .facalty__article {
+  width: 100%; /* Remove after adding swiper js */
+  border-radius: 1.25rem;
+  overflow: hidden;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.facalty__image {
+  position: relative;
+  padding-top: 1.5rem;
+  margin-bottom: -.75rem;
+}
+
+.facalty__data {
+  background-color: #f5fafa;
+  padding: 1.5rem 2rem;
+  color:#AB0909;
+  border-radius: 1rem;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.facalty__img {
+  width: 180px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 15;
+  align:center;
+}
+
+.facalty__shadow {
+  width: 300px;
+  height: 200px;
+  background-color: grey;
+  border-radius: 50%;
+  position: absolute;
+  top: 3.75rem;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  filter: blur(45px);
+}
+
+.facalty__name {
+  color:black;
+  margin-bottom: .75rem;
+  font-weight:bold;
+}
+
+.facalty__description {
+  font-weight: 500;
+  font-size:19px;
+  margin-bottom: 1.75rem;
 }
