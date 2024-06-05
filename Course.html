@@ -1,0 +1,349 @@
+<html>
+	<head>
+	<!--meta link--->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--title tag-->
+		<title>Course Page</title>
+		<!--style for google font--->
+		<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+		<!--cdn for bootstrap css-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+		<!---cdn for font awesome-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<!--external css-->
+		<link href="SRVSStyle.css" rel="stylesheet"/>
+		<!--jquery link-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		
+		<style>
+		.StyleDiv
+		{
+		background:#AB0909;
+		color:white;
+		}
+		.StyleDiv:hover
+		{
+		background:#AB0909;
+		color:white;
+		}
+		</style>
+	</head>
+	<body>
+		<!--preloader-->
+		<div id="preloader"></div>
+		<!--end preloader-->
+		
+		<!--div for top to up button-->
+		<button onclick="topFunction()" id="myScrollToTopBtn" title="Go to top"><img src='Images/up.png' style='height:40px;width:40px;'/></button>
+		<!---end of top to up button--->
+		
+		<!--Icon button-->
+<div class="ICONBTN1">
+<a href="https://wa.me/+918765128702" target='_blank'><i STYLE="transform: rotate(270deg);color:white;" class="fa-brands fa-whatsapp fa-2x" aria-hidden="true"></i></a>
+</div>
+<div class="ICONBTN2">
+<a href="mailto:srvsmmva@gmail.com" target='_blank'><i STYLE="transform: rotate(270deg);color:white;" class="fa-solid FA-2X fa-envelope"></i></a>
+</div>
+<div class="ICONBTN3">
+<a href="tel:+91 8765128702  " target='_blank'><i STYLE="transform: rotate(270deg);color:white;" class="fa-solid fa-phone fa-2x" aria-hidden="true"></i></a> 
+</div> 
+		<!--end of icons button-->
+		
+				<!---upper header-->
+		<div class='container-fluid'>
+			<div class='row UpperHeader'>
+				<div class='col-6'>
+					<a target="_blank" href='https://www.facebook.com/srvsmmv.ahraura.3/' class='UpperHeaderLink'>
+					<img src='Images/facebook.png'/></a>
+					
+					<a target="_blank" href='https://www.instagram.com/srvs_college_ahraura/' class='UpperHeaderLink'>
+					<img src='Images/instagram.png'/></a>
+					<a target="_blank" href='https://www.youtube.com/@SRVSGROUPOFEDUCATIONAL' class='UpperHeaderLink'>
+					<img src='Images/youtube.png'/></a>
+					<a target="_blank" href='https://wa.me/9415940255' class='UpperHeaderLink'>
+					<img src='Images/linkedin.png'/></a>
+					<a target="_blank" href='https://wa.me/9415940255' class='UpperHeaderLink'>
+					<img src='Images/telegram.png'/></a>
+				</div>
+				<div class='col-6'>
+					<marquee style='color:white;'scrollamount="4">Affiliated to Mahatma Gandhi Kashi Vidyapith</marquee>
+					</div>
+			</div>
+		</div>
+		<!---end of upper header-->
+		
+		<!--- header-->
+		<div class="container-fluid sticky-top">
+			<!--navbar-->
+			<div class="row">
+				<div class=""  style="padding:0 !important">
+					<nav class="navbar navbar-expand-lg navbar-light" style="background:white;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+						<img src="Images/logo.png" style="width:100px;height:90px;"/>
+						
+						<!-- Offcanvas toggle button (visible on all screen sizes) -->
+						<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+						aria-controls="offcanvasExample">
+							<div class="burger" id="burger">
+								<div class="line1"></div>
+								<div class="line2"></div>
+								<div class="line3"></div>
+							</div>
+						</button>
+						
+						<!-- Navbar items -->
+						<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+							<div class="offcanvas-header">
+								<h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+								<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+							</div>
+							<div class="offcanvas-body">
+								<ul class="navbar-nav">
+									<li class="nav-item">
+										<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link active" href="About.html">About</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link active" href="Course.html">Courses</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link active" href="Facalty.html">Facalty</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link active" href="Gallery.html">Happenings</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link active" href="Contact.html">Contact</a>
+									</li>
+								</ul>		
+							</div>
+						</div>
+						<!-- Navbar items (visible on larger screens) -->
+						<div class='MenuGap'></div>
+						<div class="collapse navbar-collapse ms-auto" id="navbarNav">
+							<ul class="navbar-nav">
+									<li class="nav-item">
+										<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link active" href="About.html">About</a>
+									</li>
+									<li class="nav-item selectedmenu">
+										<a class="nav-link active" href="Course.html">Courses</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link active" href="Facalty.html">Facalty</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link active" href="Gallery.html">Happenings</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link active" href="Contact.html">Contact</a>
+									</li>
+								</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<!--end of navbar-->
+		
+		<!--div for courses-->
+		<div class='container'>
+			<div class='row mt-5'>
+				<div class='col-lg-2 col-md-2 col-sm-12 mb-5' >
+					
+					<h3 style='font-family:ariel;;color:#1414FF;font-weight:bold;'>Courses</h3>
+				<div class='mb-4' style='border-top:3px solid #AB0909;width:50px;'></div>
+					<div class='btn btn' id='C1'><h4>B.A</h4></div>
+					<div class='btn btn' id='C2'><h4>B.Com</h4></div>
+					<div class='btn btn' id='C3'><h4>B.Sc</h4></div>
+					</div>
+				<div style='border-left:2px solid red;' class='col-lg-10 col-md-10 col-sm-12'>
+				<!--div for table 1-->
+				<div id='Table1'>
+				<h3 style='font-family:ariel;text-align:center;color:#1414FF;font-weight:bold;'>Course Detail</h3>
+				<center><div class='mb-4' style='border-top:4px solid #AB0909;width:50px;'></div></center>
+					<table class='table table-striped'>
+						<tr>
+							<td>Course</td>
+							<td>B.A</td>
+							</tr>
+							<tr>
+							<td>Subject</td>
+							<td>	English , Hindi ,History , Sociology ,Psychology, Political Science , Geography</td>
+							</tr>
+							<tr>
+							<td>Qualification</td>
+							<td>Intermediate with 60% from any board</td>
+							</tr>
+						</table>
+					</div>
+				<!--div for table2-->
+					<div id='Table2'>
+				<h3 style='font-family:ariel;text-align:center;color:#1414FF;font-weight:bold;'>Course Detail</h3>
+				<center><div class='mb-4' style='border-top:4px solid #AB0909;width:50px;'></div></center>
+					<table class='table table-striped'>
+						<tr>
+							<td>Course</td>
+							<td>B.Com</td>
+							</tr>
+							<tr>
+							<td>Subject</td>
+							<td>Financial Accounting, Business Laws, Economics, Taxation, Auditing, and Cost Accounting</td>
+							</tr>
+							<tr>
+							<td>Qualification</td>
+							<td>Intermediate with 60% from any board</td>
+							</tr>
+						</table>
+					</div>
+					<!--div for table3-->
+					<div id='Table3'>
+				<h3 style='font-family:ariel;text-align:center;color:#1414FF;font-weight:bold;'>Course Detail</h3>
+				<center><div class='mb-4' style='border-top:4px solid #AB0909;width:50px;'></div></center>
+					<table class='table table-striped'>
+						<tr>
+							<td>Course</td>
+							<td>B.Sc</td>
+							</tr>
+							<tr>
+							<td>Subject</td>
+							<td>Chemistry, Zoology, Physics, Botany, Math</td>
+							</tr>
+							<tr>
+							<td>Qualification</td>
+							<td>Intermediate with 60% from any board</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				</div>
+			</div>
+		<!--end of div for courses-->
+		
+				<!--div for College brochure-->
+	<div class='container-fluid'>
+	<div class='row mt-5 BrochureDiv'>
+	
+	<div class='col-lg-8 col-md-12 col-12'>
+	<h3 style='color:white;font-family:cursive;'>College where you can enhance your skill and upgrade yourself under the full guidance of experts</h3>
+	</div>
+	<div class='col-lg-4 col-md-12 col-12'>
+	<a target='_blank' href="Images/SRVSBrochure.pdf">
+	<div class='btn btn-danger mt-1' style='height:60px;padding-top:15px;font-size:20px;'>Read Brochure</div>
+	</a>
+	<a target='_blank' href="Images/SRVSBrochure.pdf" download><div class='btn btn-danger mt-1' style='height:60px;padding-top:15px;font-size:20px;'>Download Brochure</div></a>
+	</div>
+	</div>
+	</div>
+	<!--end of div for College brochure-->
+		
+			<!---div for footer--->
+	<div class='container-fluid'>
+	<div class='row mt-5 FooterDiv'>
+	<div class="col-lg-4 col-md-6 col-sm-12">
+	<img src='Images/logo.png'/>
+	<h6 class='mt-3 mb-3' style='color:white;text-align:justify;'>Swargiya Ram Vilas Singh Mahila Mahavidyalaya, is affiliated with Mahatma Gandhi Kashi Vidyapith.<br>
+	We give the following facility to our students:-<br>
+	&#x2713;Proper Library Facility</br>
+	&#x2713;Facilities of Games & Sports</br>
+	&#x2713;Canteen Facility</br>
+	&#x2713;Hostel Facility</br>
+	&#x2713;Medical Facility</br>
+	</h6>
+	<a href="https://www.facebook.com/srvsmmv.ahraura.3/" target='_blank' class="socialicon fa fa-facebook"></a>
+							<a href="https://www.youtube.com/@SRVSGROUPOFEDUCATIONAL" target='_blank' class="socialicon fa fa-youtube"></a>
+							<a href="https://www.google.com/search?q=srvs+mahila+mahavidyalaya+ahraura&oq=s&gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIGCAEQRRg7MgYIAhBFGDsyBggDEEUYOzIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMTc1MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8" target='_blank' class="socialicon fa fa-google"></a>
+							<a href="#" class="socialicon fa fa-linkedin"></a>
+							<a href="https://www.instagram.com/srvs_college_ahraura/" target='_blank' class="socialicon fa fa-instagram"></a>
+							
+							
+	</div>
+	<div class="col-lg-1 col-md-6 col-sm-12"></div>
+	<div class="col-lg-2 col-md-6 col-sm-12">
+				<h3 class='mt-3 mb-3' style='color:white;'>Navigation</h3>			
+							<div class="f-nav mt-4">
+		<a href="index.html"><i class="foterlink fa fa-caret-right"></i>Home</a>
+		<a href="About.html"><i class="foterlink fa fa-caret-right"></i>About</a>
+		<a href="Course.html"><i class="foterlink fa fa-caret-right"></i>Courses</a>
+		<a href="Facalty.html"><i class="foterlink fa fa-caret-right"></i>Facalty</a>
+		<a href="Gallery.html"><i class="foterlink fa fa-caret-right"></i>Happening</a>
+		<a href="Contact.html"><i class="foterlink fa fa-caret-right"></i>Contact</a>
+	</div>
+	</div>
+	<div class="col-lg-1 col-md-6 col-sm-12"></div>
+	<div class="col-lg-4 col-md-6 col-sm-12">
+	<h3 class='mt-3 mb-3' style='color:white;'>Contact</h3>
+	<a href="tel:+91 7318016500" class="FooterContactlink">
+							<span style="color:white;">
+								<i class="fa-solid fa-phone"></i>&ensp;
+								Call Now</span>
+						</a>
+						<a href="tel:+91 8765128700" class="FooterContactlink">
+							<span style="color:white;">
+								<i class="fa-solid fa-phone"></i>&ensp;
+								For Any Help</span>
+						</a>
+						
+						<a href="mailto:  srvsmmva@gmail.com" class="FooterContactlink"><span>
+						<i class="fa-solid fa-envelope"></i>&ensp;
+							  Mail Us Now
+						</span></a>
+						<a href="About.html" style="text-align:justify;" class="FooterContactlink"><span>
+						<i class="fa-solid fa-location-dot"></i>&ensp;KANHAIPUR, Ahraura, Chunar, Mirjapur 231301
+						</span></a>
+	</div><hr style='margin-top:20px;border:1px solid white;'>
+	<h6 style="color:white;text-align:center;">© 2024 All rights reserved | Designed & Developed By:<a style="text-decoration:none;color:white;" href="https://www.techomind.com/" target='_blank'>Techomind</a></h6>
+	</div>
+	</div>
+	<!---end of div for footer--->
+		
+		<!--Js File-->
+		<script src="SRVSScript.js"></script>
+		<!--bootstrap js cdn--->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+		
+        <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+		<script>
+		$(document).ready(function () {
+    $("#C1").click(function () {
+        $("#Table1").show();
+        $("#Table2").hide();
+        $("#Table3").hide();
+		 $(this).addClass('StyleDiv');
+		 $("#C2,#C3").removeClass('StyleDiv');
+    });
+	$("#C2").click(function () {
+        $("#Table2").show();
+        $("#Table1").hide();
+        $("#Table3").hide();
+		 $(this).addClass('StyleDiv');
+		 $("#C1,#C3").removeClass('StyleDiv');
+    });
+	$("#C3").click(function () {
+        $("#Table3").show();
+        $("#Table2").hide();
+        $("#Table1").hide();
+		$(this).addClass('StyleDiv');
+		 $("#C2,#C1").removeClass('StyleDiv');
+    });
+});
+		$(document).ready(function () {
+        $("#Table1").show();
+        $("#Table2").hide();
+        $("#Table3").hide();
+		$("#C1").addClass('StyleDiv');
+		 $("#C2,#C3").removeClass('StyleDiv');
+    });
+		</script>
+	</body>
+</html>
