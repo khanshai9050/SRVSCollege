@@ -26,6 +26,7 @@ function topFunction() {
 }
 //end of Get the top to up button://
 
+
 /*js for work counter*/
 $(document).ready(function () {
         $.fn.jQuerySimpleCounter = function (options) {
@@ -49,10 +50,16 @@ $(document).ready(function () {
                 complete: settings.complete
             });
         };
-        $('#number1').jQuerySimpleCounter({ end: 8000, duration: 5000 });
-        $('#number2').jQuerySimpleCounter({ end: 100, duration: 5000 });
-        $('#number3').jQuerySimpleCounter({ end: 3000, duration: 5000 });
-        $('#number4').jQuerySimpleCounter({ end: 2000, duration: 5000 });
-		
+        $('#number1').jQuerySimpleCounter({ end: 200, duration: 5000 });
+        $('#number2').jQuerySimpleCounter({ end: 200, duration: 5000 });
+        $('#number3').jQuerySimpleCounter({ end: 200, duration: 5000 });
+        $('#number4').jQuerySimpleCounter({ end: 200, duration: 5000 });
+		$('#number5').jQuerySimpleCounter({ end: 200, duration: 5000 });
+		$('#number6').jQuerySimpleCounter({ end: 200, duration: 5000 });
+		$('#number7').jQuerySimpleCounter({ end: 200, duration: 5000 });
+		$('#number8').jQuerySimpleCounter({ end: 200, duration: 5000 });
+		$('#number9').jQuerySimpleCounter({ end: 200, duration: 5000 });
+		$('#number10').jQuerySimpleCounter({ end: 200, duration: 5000 });
     });
 /*end of js for work counter*/
+
